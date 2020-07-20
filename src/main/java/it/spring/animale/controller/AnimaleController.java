@@ -17,6 +17,7 @@ import it.spring.animale.model.Animale;
 import it.spring.animale.model.Proprietario;
 import it.spring.animale.service.animaleService;
 
+//gitHub
 @RestController
 @RequestMapping("/animale")
 public class AnimaleController 
