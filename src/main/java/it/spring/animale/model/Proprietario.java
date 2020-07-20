@@ -31,7 +31,7 @@ public class Proprietario
 	//			colonna della foreign key	tutte le operazioni collegate	carica subito le relazioni 
 	@OneToMany(mappedBy = "proprietario", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
 	private List<Animale> listaAnimali;
-
+	
 	public Proprietario () {}
 		
 	public Proprietario(Long id, String nome, String cognome, String email, String sesso, int eta) {
