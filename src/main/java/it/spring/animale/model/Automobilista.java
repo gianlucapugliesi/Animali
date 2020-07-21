@@ -11,6 +11,7 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
+//aggiornamento GitHub
 @Entity
 @Table(name = "automobilista")
 
